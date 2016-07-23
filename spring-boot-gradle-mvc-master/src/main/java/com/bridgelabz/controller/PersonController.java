@@ -45,9 +45,9 @@ public class PersonController {
     @RequestMapping(value = "delete/{id}")
     public String delete(@PathVariable Long id, Model model){
     	personService.delete(id);
-        return "redirect:person/index";
+    	model.addAttribute("msg","Deleted Successfully");
+        return "person/delete";
     }
-
     @RequestMapping(value = "update",method = RequestMethod.POST)
     public String update(Person person){
         personService.save(person);
