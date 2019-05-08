@@ -1,4 +1,4 @@
-package com.bridgelabz.domain;
+package com.sutiboot.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -6,7 +6,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
- * Created by ekansh on 12/7/15.
+ * @className:com.sutiboot.domain.Person.java
+ * @author <a href="mailto:balramc@****.**">Balram</a>
+ * @date May 8, 2019 11:12:33 AM
+ * @description:
  */
 @Entity
 public class Person {

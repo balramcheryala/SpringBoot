@@ -1,4 +1,4 @@
-package com.bridgelabz.controller;
+package com.sutiboot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,9 +7,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.bridgelabz.domain.Person;
-import com.bridgelabz.service.PersonService;
+import com.sutiboot.domain.Person;
+import com.sutiboot.service.PersonService;
 
+/**
+ * @className:com.sutiboot.controller.PersonController.java
+ * @author <a href="mailto:balramc@****.**">Balram</a>
+ * @date May 8, 2019 11:12:15 AM
+ * @description:
+ */
 @Controller
 @RequestMapping(value = {"","/person"})
 public class PersonController {

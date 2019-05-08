@@ -1,5 +1,11 @@
 # .gitignore for spring boot application
-
+.settings
+.class
+.project
+.classpath
+*.*bak
+.springBeans
+/bin
 # application build files
 /build
 
@@ -25,4 +31,6 @@
 /wrapper
 
 /out
+
+
 
