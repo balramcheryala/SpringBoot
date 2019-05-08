@@ -23,8 +23,8 @@
 </form>
 <a href="/person/index" class="btn btn-success">Back</a>
 
-<script type="application/javascript" src="js/jquery.js"></script>
-<script type="application/javascript" src="js/bootstrap.js"></script>
+<script type="application/javascript" src="/js/jquery.js"></script>
+<script type="application/javascript" src="/js/bootstrap.js"></script>
 
 
 </body>
